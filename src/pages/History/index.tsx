@@ -12,12 +12,14 @@ export function History() {
 			<h1>Meu histórico</h1>
 			<HistoryList>
 				<table>
-					<tr>
-						<th>Tarefa</th>
-						<th>Duração</th>
-						<th>Inicio</th>
-						<th>Status</th>
-					</tr>
+					<thead>
+						<tr>
+							<th>Tarefa</th>
+							<th>Duração</th>
+							<th>Inicio</th>
+							<th>Status</th>
+						</tr>
+					</thead>
 					<tbody>
 						{cycles.map((cycle) => {
 							return (
