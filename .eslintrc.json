@@ -40,7 +40,14 @@
             "always"
         ],
         "react/react-in-jsx-scope": "off",
-        "react/prop-types": "off"  
+        "react/prop-types": "off" ,
+        "max-len":[
+            "error",
+            { 
+                "code": 120,
+                "tabWidth": 2 
+            }
+        ]
     },
     "settings": {
         "react": {
